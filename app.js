@@ -13,7 +13,7 @@ route.get('/test',function(req,res){
     res.json({message:"Hello World"})
 })
 
-
+//test
 
 route.post('/test', function(req,res){
     console.log('The body record is', req.body);
